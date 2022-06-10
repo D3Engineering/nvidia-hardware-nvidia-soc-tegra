@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Definitions for Jetson tegra210-p3448-0000-p3449-0000-a02 board.
+ * Definitions for Jetson tegra210-p3448-0003-p3542-0000 board.
  *
- * Copyright (c) 2019-2021 NVIDIA CORPORATION. All rights reserved.
+ * Copyright (c) 2020-2021 NVIDIA CORPORATION. All rights reserved.
  *
  */
 
 #include <dt-bindings/gpio/tegra-gpio.h>
 
-#define JETSON_COMPATIBLE	"nvidia,p3449-0000-b00+p3448-0000-b00", "nvidia,p3449-0000-a02+p3448-0000-a02"
+#define JETSON_COMPATIBLE	"nvidia,p3542-0000+p3448-0003"
 
 /* SoC function name for clock signal on 40-pin header pin 7 */
 #define HDR40_CLK	"aud"
